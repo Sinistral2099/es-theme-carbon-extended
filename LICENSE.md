@@ -1,47 +1,3 @@
-Theme 'carbon' v2.4 - 08-16-2016 by Rookervik
-based on simple(c) Nils Bonenberger - nilsbyte@nilsbyte.de - http://blog.nilsbyte.de/
-For use with EmulationStation (http://www.emulationstation.org/)
-
-
-Fonts:
-Users can use any font they would like with the theme. Just copy your font to /etc/emulationstation/themes/carbon/art folder. Rename the original font "Cabin-Bold.ttf" to "Cabin-Bold.ttf.backup" and then rename your font to "Cabin-Bold.ttf". This will have the theme use your font instead of what comes with Carbon.
-
-Gamelist Font Size:
-To change the font size of the Gamelist, open the "carbon.xml" with a text editor, look for the tag <gamelist> and find a tag inside called <fontSize>. The original value is 0.03. A small change makes a big difference in size. If you want smaller gamelist names, try 0.02. If you want larger, try 0.04. You can even go further by trying 0.015.
-
-Colors:
-To change the colors open carbon.xml with a text editor. Choose a color and find it's hexidecimal value. Some examples are found in the carbon.xml file. Find all occurances of "8b0000" and replace them with your chosen color. Such as Orange: ef710b. Save the carbon.xml and exit. To change the color to another color after the first change, search for your old color, and replace it with a new one.
-
-Sounds:
-To change the sound effect, replace /art/scroll.wav with what ever WAV file you would like. Carbon theme will play what ever is called "scroll.wav" in the /art folder.
-
-Changelog
-=========
-
-===08/16/2016===
-Added Super Grafx
-Added PC Engine CD-Rom²
-Added Turbo Grafx CD
-Removed metadata labels (only the actual meta data is shown)
-Re-positioned elements slightly
-
-===07/08/2016===
-Complete re-write.
-Simplified all system theme.xml files.
-Theme color can be changed by finding and replacing colors in carbon.xml
-UI flipped for left-to-right reading order
-Meta-data tags reduced to: released, genre, players, and description
-Kid-Friendly icons and code added
-Flipper sound removed
-
-===9/19/2015===
-Missing controllers added:
-Colecovision
-Gamecube
-PS2
-X-11
-Wii
-
 License
 =======
 
@@ -77,7 +33,7 @@ Your acceptance of these terms and conditions, and the Licensor grants
 You such rights in consideration of benefits the Licensor receives from 
 making the Licensed Material available under these terms and conditions. 
 
-Section 1 – Definitions. 
+Section 1 ï¿½ Definitions. 
 
 Adapted Material means material subject to Copyright and Similar Rights 
 that is derived from or based upon the Licensed Material and in which 
@@ -131,7 +87,7 @@ Parliament and of the Council of 11 March 1996 on the legal protection
 of databases, as amended and/or succeeded, as well as other essentially 
 equivalent rights anywhere in the world. You means the individual or 
 entity exercising the Licensed Rights under this Public License. Your 
-has a corresponding meaning. Section 2 – Scope. 
+has a corresponding meaning. Section 2 ï¿½ Scope. 
 
 License grant. Subject to the terms and conditions of this Public 
 License, the Licensor hereby grants You a worldwide, royalty-free, 
@@ -152,14 +108,14 @@ modifications necessary to exercise the Licensed Rights, including
 technical modifications necessary to circumvent Effective Technological 
 Measures. For purposes of this Public License, simply making 
 modifications authorized by this Section 2(a)(4) never produces Adapted 
-Material. Downstream recipients. Offer from the Licensor – Licensed 
+Material. Downstream recipients. Offer from the Licensor ï¿½ Licensed 
 Material. Every recipient of the Licensed Material automatically 
 receives an offer from the Licensor to exercise the Licensed Rights 
 under the terms and conditions of this Public License. Additional offer 
-from the Licensor – Adapted Material. Every recipient of Adapted 
+from the Licensor ï¿½ Adapted Material. Every recipient of Adapted 
 Material from You automatically receives an offer from the Licensor to 
 exercise the Licensed Rights in the Adapted Material under the 
-conditions of the Adapter’s License You apply. No downstream 
+conditions of the Adapterï¿½s License You apply. No downstream 
 restrictions. You may not offer or impose any additional or different 
 terms or conditions on, or apply any Effective Technological Measures 
 to, the Licensed Material if doing so restricts exercise of the Licensed 
@@ -182,7 +138,7 @@ Rights, whether directly or through a collecting society under any
 voluntary or waivable statutory or compulsory licensing scheme. In all 
 other cases the Licensor expressly reserves any right to collect such 
 royalties, including when the Licensed Material is used other than for 
-NonCommercial purposes. Section 3 – License Conditions. 
+NonCommercial purposes. Section 3 ï¿½ License Conditions. 
 
 Your exercise of the Licensed Rights is expressly made subject to the 
 following conditions. 
@@ -212,7 +168,7 @@ the extent reasonably practicable. ShareAlike. In addition to the
 conditions in Section 3(a), if You Share Adapted Material You produce, 
 the following conditions also apply. 
 
-The Adapter’s License You apply must be a Creative Commons license with 
+The Adapterï¿½s License You apply must be a Creative Commons license with 
 the same License Elements, this version or later, or a BY-NC-SA 
 Compatible License. You must include the text of, or the URI or 
 hyperlink to, the Adapter's License You apply. You may satisfy this 
@@ -221,7 +177,7 @@ context in which You Share Adapted Material. You may not offer or impose
 any additional or different terms or conditions on, or apply any 
 Effective Technological Measures to, Adapted Material that restrict 
 exercise of the rights granted under the Adapter's License You apply. 
-Section 4 – Sui Generis Database Rights. 
+Section 4 ï¿½ Sui Generis Database Rights. 
 
 Where the Licensed Rights include Sui Generis Database Rights that apply 
 to Your use of the Licensed Material: 
@@ -237,7 +193,7 @@ must comply with the conditions in Section 3(a) if You Share all or a
 substantial portion of the contents of the database. For the avoidance 
 of doubt, this Section 4 supplements and does not replace Your 
 obligations under this Public License where the Licensed Rights include 
-other Copyright and Similar Rights. Section 5 – Disclaimer of Warranties 
+other Copyright and Similar Rights. Section 5 ï¿½ Disclaimer of Warranties 
 and Limitation of Liability. 
 
 Unless otherwise separately undertaken by the Licensor, to the extent 
@@ -260,7 +216,7 @@ liability is not allowed in full or in part, this limitation may not
 apply to You. The disclaimer of warranties and limitation of liability 
 provided above shall be interpreted in a manner that, to the extent 
 possible, most closely approximates an absolute disclaimer and waiver of 
-all liability. Section 6 – Term and Termination. 
+all liability. Section 6 ï¿½ Term and Termination. 
 
 This Public License applies for the term of the Copyright and Similar 
 Rights licensed here. However, if You fail to comply with this Public 
@@ -276,14 +232,14 @@ for Your violations of this Public License. For the avoidance of doubt,
 the Licensor may also offer the Licensed Material under separate terms 
 or conditions or stop distributing the Licensed Material at any time; 
 however, doing so will not terminate this Public License. Sections 1, 5, 
-6, 7, and 8 survive termination of this Public License. Section 7 – 
+6, 7, and 8 survive termination of this Public License. Section 7 ï¿½ 
 Other Terms and Conditions. 
 
 The Licensor shall not be bound by any additional or different terms or 
 conditions communicated by You unless expressly agreed. Any 
 arrangements, understandings, or agreements regarding the Licensed 
 Material not stated herein are separate from and independent of the 
-terms and conditions of this Public License. Section 8 – Interpretation. 
+terms and conditions of this Public License. Section 8 ï¿½ Interpretation. 
 
 For the avoidance of doubt, this Public License does not, and shall not 
 be interpreted to, reduce, limit, restrict, or impose conditions on any 
@@ -302,11 +258,11 @@ including from the legal processes of any jurisdiction or authority.
 Creative Commons is not a party to its public licenses. Notwithstanding, 
 Creative Commons may elect to apply one of its public licenses to 
 material it publishes and in those instances will be considered the 
-“Licensor.” Except for the limited purpose of indicating that material 
+ï¿½Licensor.ï¿½ Except for the limited purpose of indicating that material 
 is shared under a Creative Commons public license or as otherwise 
 permitted by the Creative Commons policies published at 
 creativecommons.org/policies, Creative Commons does not authorize the 
-use of the trademark “Creative Commons” or any other trademark or logo 
+use of the trademark ï¿½Creative Commonsï¿½ or any other trademark or logo 
 of Creative Commons without its prior written consent including, without 
 limitation, in connection with any unauthorized modifications to any of 
 its public licenses or any other arrangements, understandings, or 
